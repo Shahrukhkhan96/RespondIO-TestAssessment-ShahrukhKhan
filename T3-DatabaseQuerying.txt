@@ -1,0 +1,6 @@
+MY SQL queries
+1- select * from contacts where email is not NULL and phoneNumber is not NULL;
+
+2- select count(groupId) as "Count as per groupid", groupId from user group by groupId;
+
+3- select Customers.customerName, Orders.orderId, Orders.orderDate from Customers inner join Orders on Customers.Id = Order.customerId;

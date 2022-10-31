@@ -1,0 +1,47 @@
+{
+  "api": {
+    "apiValidData": {
+      "firstname": "Jim",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "apiInvalidDateData": {
+      "firstname": "Jim",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "WrongCheckin",
+        "checkout": "WrongCheckout"
+      },
+      "additionalneeds": "Breakfast"
+    },
+    "apiInvalidNameData": {
+      "firstname": "Jim",
+      "lastname": "Brown",
+      "totalprice": 111,
+      "depositpaid": true,
+      "bookingdates": {
+        "checkin": "WrongCheckin",
+        "checkout": "WrongCheckout"
+      },
+      "additionalneeds": "Breakfast"
+    }
+  },
+  "ui":{
+    "scenario1":[
+      "short","chiffon","blouse","summer"
+    ],
+    "scenario2":{
+      "color": "White",
+      "category": "Tops"
+    }
+    
+  }
+}
